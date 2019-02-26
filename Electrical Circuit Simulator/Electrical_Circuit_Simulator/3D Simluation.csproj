@@ -92,11 +92,6 @@
     <Compile Include="CCS.Designer.cs">
       <DependentUpon>CCS.cs</DependentUpon>
     </Compile>
-    <Compile Include="CS1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>CS.resx</DependentUpon>
-    </Compile>
     <Compile Include="notUsed\Form1_MouseDown1.cs" />
     <Compile Include="HELP.cs">
       <SubType>Form</SubType>

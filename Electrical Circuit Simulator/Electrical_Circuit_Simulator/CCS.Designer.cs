@@ -28,19 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            //do same thing for calc button
-            //this.button1.Location = new System.Drawing.Point(145, 139);
-            //this.button1.Name = "button1";
-            //this.button1.Size = new System.Drawing.Size(83, 37);
-            //this.button1.TabIndex = 7;
-            //this.button1.Text = "Enter";
-            //this.button1.UseVisualStyleBackColor = true;
-            //this.button1.Click += new System.EventHandler(this.calc_Click);
-
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CCS));
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -51,8 +41,6 @@
             this.variableResistorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cellToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.batteryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.voltmeterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ammeterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStrip2.SuspendLayout();
             this.SuspendLayout();
@@ -69,23 +57,13 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(263, 519);
+            this.button1.Location = new System.Drawing.Point(117, 519);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 30);
             this.button1.TabIndex = 4;
             this.button1.Text = "Circuit Symbols";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(117, 519);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(140, 30);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "3D Simulation ";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -138,15 +116,12 @@
             this.resistorToolStripMenuItem,
             this.variableResistorToolStripMenuItem,
             this.cellToolStripMenuItem,
-            this.batteryToolStripMenuItem,
-            this.voltmeterToolStripMenuItem,
-            this.ammeterToolStripMenuItem});
+            this.batteryToolStripMenuItem});
             this.toolStripSplitButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripSplitButton1.Image")));
             this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripSplitButton1.Name = "toolStripSplitButton1";
             this.toolStripSplitButton1.Size = new System.Drawing.Size(120, 22);
             this.toolStripSplitButton1.Text = "Add Component";
-            //this.toolStripSplitButton1.ButtonClick += new System.EventHandler(this.toolStripSplitButton1_ButtonClick);
             // 
             // bulbToolStripMenuItem
             // 
@@ -183,20 +158,6 @@
             this.batteryToolStripMenuItem.Text = "Battery";
             this.batteryToolStripMenuItem.Click += new System.EventHandler(this.batteryToolStripMenuItem_Click);
             // 
-            // voltmeterToolStripMenuItem
-            // 
-            this.voltmeterToolStripMenuItem.Name = "voltmeterToolStripMenuItem";
-            this.voltmeterToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
-            this.voltmeterToolStripMenuItem.Text = "Voltmeter";
-            this.voltmeterToolStripMenuItem.Click += new System.EventHandler(this.voltmeterToolStripMenuItem_Click);
-            // 
-            // ammeterToolStripMenuItem
-            // 
-            this.ammeterToolStripMenuItem.Name = "ammeterToolStripMenuItem";
-            this.ammeterToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
-            this.ammeterToolStripMenuItem.Text = "Ammeter";
-            this.ammeterToolStripMenuItem.Click += new System.EventHandler(this.ammeterToolStripMenuItem_Click);
-            // 
             // toolStripButton1
             // 
             this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
@@ -217,7 +178,6 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -236,7 +196,6 @@
 
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Panel panel1;
@@ -247,8 +206,6 @@
         private System.Windows.Forms.ToolStripMenuItem variableResistorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cellToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem batteryToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem voltmeterToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ammeterToolStripMenuItem;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
     }
 }

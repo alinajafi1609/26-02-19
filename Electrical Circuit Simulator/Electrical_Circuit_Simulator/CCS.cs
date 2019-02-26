@@ -76,7 +76,7 @@ namespace Electrical_Circuit_Simulator
             if (Bmp != null)
 
             {
-                PictureBox Component = new PictureBox();
+                Component = new PictureBox();
                 Label ComponentName = new Label();
                 ComponentName.Location = new Point(23, 50);
                 ComponentName.Text = ComponentNameLabel;
@@ -106,8 +106,8 @@ namespace Electrical_Circuit_Simulator
         {
             if (drag)
             {
-                //Component.Top += e.Y - y;
-                //Component.Left += e.X - x;
+                Component.Top += e.Y - y;
+                Component.Left += e.X - x;
             }
         }
         private void Component_MouseUp(object sender, MouseEventArgs e)
