@@ -42,6 +42,8 @@
             this.cellToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.batteryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.button3 = new System.Windows.Forms.Button();
+            this.magnetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -107,6 +109,7 @@
             this.toolStrip2.Size = new System.Drawing.Size(984, 25);
             this.toolStrip2.TabIndex = 10;
             this.toolStrip2.Text = "toolStrip2";
+            this.toolStrip2.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.toolStrip2_ItemClicked);
             // 
             // toolStripSplitButton1
             // 
@@ -116,7 +119,8 @@
             this.resistorToolStripMenuItem,
             this.variableResistorToolStripMenuItem,
             this.cellToolStripMenuItem,
-            this.batteryToolStripMenuItem});
+            this.batteryToolStripMenuItem,
+            this.magnetToolStripMenuItem});
             this.toolStripSplitButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripSplitButton1.Image")));
             this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripSplitButton1.Name = "toolStripSplitButton1";
@@ -168,12 +172,30 @@
             this.toolStripButton1.Text = "Clear ";
             this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(223, 519);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(95, 29);
+            this.button3.TabIndex = 11;
+            this.button3.Text = "CALCULATE";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
+            // 
+            // magnetToolStripMenuItem
+            // 
+            this.magnetToolStripMenuItem.Name = "magnetToolStripMenuItem";
+            this.magnetToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.magnetToolStripMenuItem.Text = "Electromagnet";
+            this.magnetToolStripMenuItem.Click += new System.EventHandler(this.magnetToolStripMenuItem_Click);
+            // 
             // CCS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(984, 561);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.toolStrip2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button5);
@@ -207,5 +229,7 @@
         private System.Windows.Forms.ToolStripMenuItem cellToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem batteryToolStripMenuItem;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.ToolStripMenuItem magnetToolStripMenuItem;
     }
 }

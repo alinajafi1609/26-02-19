@@ -55,7 +55,6 @@ namespace Electrical_Circuit_Simulator
 
         private void calc_Click(object sender, EventArgs e)
         {
-            circuit.caclucate();
         }
         public void StartGame()
         {
@@ -68,7 +67,6 @@ namespace Electrical_Circuit_Simulator
             var Back = new PS();
             Back.Show();
             Visible = false;
-
         }
         PictureBox Component;
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -238,11 +236,33 @@ namespace Electrical_Circuit_Simulator
             Rectangle R = new Rectangle(BmpLoc, Bmp.Size);
             this.Invalidate(R);
         }
+
         private bool pictOrder;
 
         private void panel1_MouseClick(object sender, MouseEventArgs e)
         {
 
+        }
+
+        private void toolStrip2_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            circuit.calculate();
+        }
+
+        private void magnetToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var InputElectromagnets = new Input_Electromagnet(circuit);
+            InputElectromagnets.Show();
+            FileLocation = ".\\..\\..\\..\\Resources\\ElectromagnetCS.png";
+            Bmp = new Bitmap(FileLocation);
+            BmpLoc = new Point(POINT.X, POINT.Y);
+            Rectangle R = new Rectangle(BmpLoc, Bmp.Size);
+            this.Invalidate(R);
         }
     }
     }

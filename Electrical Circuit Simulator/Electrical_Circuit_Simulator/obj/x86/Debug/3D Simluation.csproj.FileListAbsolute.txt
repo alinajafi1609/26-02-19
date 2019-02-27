@@ -23,3 +23,4 @@ C:\Users\Ali Najafi\Desktop\Electrical Circuit Simulator\Electrical Circuit Simu
 C:\Users\Ali Najafi\Desktop\Electrical Circuit Simulator\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.Input_Resistors.resources
 C:\Users\Ali Najafi\Desktop\Electrical Circuit Simulator\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.Input_Power_Supply.resources
 C:\Users\Ali Najafi\Desktop\Electrical Circuit Simulator\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.Forms.Physics.Symbols.resources
+C:\Users\Ali Najafi\Desktop\Electrical Circuit Simulator\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.Input_Electromagnet.resources

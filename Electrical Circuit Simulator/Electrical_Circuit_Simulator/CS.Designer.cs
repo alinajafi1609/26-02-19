@@ -56,7 +56,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.ImageLocation = ".\\..\\..\\..\\Resources\\VoltMeterCS.png";
+            this.pictureBox1.ImageLocation = ".\\..\\..\\..\\Resources\\\\ElectromagnetCS.png";
             this.pictureBox1.Location = new System.Drawing.Point(245, 544);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(235, 101);
@@ -99,7 +99,7 @@
             this.VoltmeterLabel.Name = "VoltmeterLabel";
             this.VoltmeterLabel.Size = new System.Drawing.Size(234, 20);
             this.VoltmeterLabel.TabIndex = 5;
-            this.VoltmeterLabel.Text = "Voltmeter";
+            this.VoltmeterLabel.Text = "Electromagnet";
             this.VoltmeterLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.VoltmeterLabel.Click += new System.EventHandler(this.VoltmeterLabel_Click);
             // 

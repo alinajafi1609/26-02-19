@@ -90,6 +90,7 @@
             this.label6.Size = new System.Drawing.Size(53, 15);
             this.label6.TabIndex = 21;
             this.label6.Text = "Junction";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // textBox1
             // 

@@ -74,6 +74,11 @@ namespace Electrical_Circuit_Simulator
             string JunctionS = textBox1.Text;
             Junction = Convert.ToInt16(JunctionS);
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

@@ -78,7 +78,20 @@
     <Reference Include="System.Net" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CS1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CS.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Input Electromagnet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Input Electromagnet.Designer.cs">
+      <DependentUpon>Input Electromagnet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="models\Calcuations.cs" />
     <Compile Include="models\Circuit.cs" />
+    <Compile Include="models\ComponentElectromagnets.cs" />
     <Compile Include="models\ComponentResistors.cs" />
     <Compile Include="CS.cs">
       <SubType>Form</SubType>
@@ -179,6 +192,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HELP.resx">
       <DependentUpon>HELP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Input Electromagnet.resx">
+      <DependentUpon>Input Electromagnet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Input Power Supply.resx">
       <DependentUpon>Input Power Supply.cs</DependentUpon>
