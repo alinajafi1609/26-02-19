@@ -13,7 +13,7 @@ namespace Electrical_Circuit_Simulator.Forms
     {
         public PS()
         {
-            Bitmap Background = new Bitmap("C:\\Users\\Ali Najafi\\Desktop\\Electrical Circuit Simulator\\Electrical Circuit Simulator\\Electrical_Circuit_Simulator\\Resources\\PECs Backround.jpg");
+            Bitmap Background = new Bitmap(".\\..\\..\\..\\Resources\\PECs Backround.jpg");
             this.BackgroundImage = Background;
             InitializeComponent();
         }

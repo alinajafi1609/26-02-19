@@ -53,13 +53,13 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(97, 9);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(192, 15);
+            this.label4.Size = new System.Drawing.Size(168, 13);
             this.label4.TabIndex = 19;
             this.label4.Text = "Enter the name of the component:\r\n";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(257, 96);
+            this.textBox2.Location = new System.Drawing.Point(256, 84);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(124, 20);
             this.textBox2.TabIndex = 24;
@@ -67,7 +67,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 96);
+            this.textBox1.Location = new System.Drawing.Point(11, 84);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(134, 20);
             this.textBox1.TabIndex = 23;
@@ -76,18 +76,18 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(287, 71);
+            this.label2.Location = new System.Drawing.Point(296, 68);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 15);
+            this.label2.Size = new System.Drawing.Size(40, 13);
             this.label2.TabIndex = 22;
             this.label2.Text = "Length";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(16, 71);
+            this.label1.Location = new System.Drawing.Point(28, 68);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(130, 15);
+            this.label1.Size = new System.Drawing.Size(114, 13);
             this.label1.TabIndex = 21;
             this.label1.Text = "Magnetic Flux Density ";
             // 
@@ -104,15 +104,15 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(167, 71);
+            this.label6.Location = new System.Drawing.Point(170, 68);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 15);
+            this.label6.Size = new System.Drawing.Size(47, 13);
             this.label6.TabIndex = 27;
             this.label6.Text = "Junction";
             // 
             // resTextBox
             // 
-            this.resTextBox.Location = new System.Drawing.Point(159, 96);
+            this.resTextBox.Location = new System.Drawing.Point(158, 84);
             this.resTextBox.Name = "resTextBox";
             this.resTextBox.Size = new System.Drawing.Size(71, 20);
             this.resTextBox.TabIndex = 26;
@@ -121,11 +121,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(287, 129);
+            this.label3.Location = new System.Drawing.Point(287, 138);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 15);
+            this.label3.Size = new System.Drawing.Size(60, 13);
             this.label3.TabIndex = 29;
-            this.label3.Text = "Junction";
+            this.label3.Text = "Resistance";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // textBox3

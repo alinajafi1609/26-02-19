@@ -264,5 +264,23 @@ namespace Electrical_Circuit_Simulator
             Rectangle R = new Rectangle(BmpLoc, Bmp.Size);
             this.Invalidate(R);
         }
+
+        private void verticalWireToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FileLocation = ".\\..\\..\\..\\Resources\\VerticalWire.png";
+            Bmp = new Bitmap(FileLocation);
+            BmpLoc = new Point(POINT.X, POINT.Y);
+            Rectangle R = new Rectangle(BmpLoc, Bmp.Size);
+            this.Invalidate(R);
+        }
+
+        private void horizontalWireToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FileLocation = ".\\..\\..\\..\\Resources\\HorizontalWire.png";
+            Bmp = new Bitmap(FileLocation);
+            BmpLoc = new Point(POINT.X, POINT.Y);
+            Rectangle R = new Rectangle(BmpLoc, Bmp.Size);
+            this.Invalidate(R);
+        }
     }
     }
