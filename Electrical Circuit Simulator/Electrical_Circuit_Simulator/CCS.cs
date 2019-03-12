@@ -193,7 +193,7 @@ namespace Electrical_Circuit_Simulator
             if (canPaint)
             {
                 Pen pen = new Pen(Color.Black, 3);
-                g.DrawLine(pen, new Point(prevX ?? e.X, prevY ?? e.Y), new Point(e.X, e.Y));
+                //g.DrawLine(pen, new Point(prevX ?? e.X, prevY ?? e.Y), new Point(e.X, e.Y));
                 prevX = e.X;
                 prevY = e.Y;
             }
@@ -277,6 +277,17 @@ namespace Electrical_Circuit_Simulator
         private void horizontalWireToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FileLocation = ".\\..\\..\\..\\Resources\\HorizontalWire.png";
+            Bmp = new Bitmap(FileLocation);
+            BmpLoc = new Point(POINT.X, POINT.Y);
+            Rectangle R = new Rectangle(BmpLoc, Bmp.Size);
+            this.Invalidate(R);
+        }
+
+        private void variableElectromagnetToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var InputElectromagnets = new Input_Electromagnet(circuit);
+            InputElectromagnets.Show();
+            FileLocation = ".\\..\\..\\..\\Resources\\VariableElectromagnetCS.png";
             Bmp = new Bitmap(FileLocation);
             BmpLoc = new Point(POINT.X, POINT.Y);
             Rectangle R = new Rectangle(BmpLoc, Bmp.Size);

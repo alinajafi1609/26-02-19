@@ -86,7 +86,7 @@
             this.AmmeterLabel.Name = "AmmeterLabel";
             this.AmmeterLabel.Size = new System.Drawing.Size(234, 20);
             this.AmmeterLabel.TabIndex = 6;
-            this.AmmeterLabel.Text = "Ammeter";
+            this.AmmeterLabel.Text = "Varible Electromagnet";
             this.AmmeterLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.AmmeterLabel.Click += new System.EventHandler(this.AmmeterLabel_Click);
             // 
@@ -217,7 +217,7 @@
             // pictureBox13
             // 
             this.pictureBox13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox13.ImageLocation = ".\\..\\..\\..\\Resources\\AmmeterCS.png";
+            this.pictureBox13.ImageLocation = ".\\..\\..\\..\\Resources\\VariableElectromagnetCS.png";
             this.pictureBox13.Location = new System.Drawing.Point(245, 652);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(235, 105);

@@ -50,3 +50,55 @@ N:\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj
 N:\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\3D Simluation.csproj.GenerateResource.Cache
 N:\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.exe
 N:\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.pdb
+C:\Users\Ali Najafi\Downloads\26-02-19-master\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\bin\x86\Debug\Electrical_Circuit_Simulator.exe
+C:\Users\Ali Najafi\Downloads\26-02-19-master\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\bin\x86\Debug\Electrical_Circuit_Simulator.pdb
+C:\Users\Ali Najafi\Downloads\26-02-19-master\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\Users\Ali Najafi\Downloads\26-02-19-master\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\Ali Najafi\Downloads\26-02-19-master\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\Users\Ali Najafi\Downloads\26-02-19-master\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\Ali Najafi\Downloads\26-02-19-master\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+C:\Users\Ali Najafi\Downloads\26-02-19-master\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\Users\Ali Najafi\Downloads\26-02-19-master\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\Ali Najafi\Downloads\26-02-19-master\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Users\Ali Najafi\Downloads\26-02-19-master\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\Users\Ali Najafi\Downloads\26-02-19-master\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+C:\Users\Ali Najafi\Downloads\26-02-19-master\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\3D Simluation.csprojResolveAssemblyReference.cache
+C:\Users\Ali Najafi\Downloads\26-02-19-master\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Ali Najafi\Downloads\26-02-19-master\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.CCS.resources
+C:\Users\Ali Najafi\Downloads\26-02-19-master\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.Forms.Physics.Symbols.resources
+C:\Users\Ali Najafi\Downloads\26-02-19-master\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.HELP.resources
+C:\Users\Ali Najafi\Downloads\26-02-19-master\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.Input_Electromagnet.resources
+C:\Users\Ali Najafi\Downloads\26-02-19-master\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.Input_Power_Supply.resources
+C:\Users\Ali Najafi\Downloads\26-02-19-master\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.Input_Resistors.resources
+C:\Users\Ali Najafi\Downloads\26-02-19-master\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.Menu.resources
+C:\Users\Ali Najafi\Downloads\26-02-19-master\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.Forms.PS.resources
+C:\Users\Ali Najafi\Downloads\26-02-19-master\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.SI.resources
+C:\Users\Ali Najafi\Downloads\26-02-19-master\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\3D Simluation.csproj.GenerateResource.Cache
+C:\Users\Ali Najafi\Downloads\26-02-19-master\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.exe
+C:\Users\Ali Najafi\Downloads\26-02-19-master\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.pdb
+C:\Users\Ali Najafi\Desktop\28-02-19\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\3D Simluation.csprojResolveAssemblyReference.cache
+C:\Users\Ali Najafi\Desktop\28-02-19\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Ali Najafi\Desktop\28-02-19\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.CCS.resources
+C:\Users\Ali Najafi\Desktop\28-02-19\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.Forms.Physics.Symbols.resources
+C:\Users\Ali Najafi\Desktop\28-02-19\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.HELP.resources
+C:\Users\Ali Najafi\Desktop\28-02-19\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.Input_Electromagnet.resources
+C:\Users\Ali Najafi\Desktop\28-02-19\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.Input_Power_Supply.resources
+C:\Users\Ali Najafi\Desktop\28-02-19\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.Input_Resistors.resources
+C:\Users\Ali Najafi\Desktop\28-02-19\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.Menu.resources
+C:\Users\Ali Najafi\Desktop\28-02-19\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.Forms.PS.resources
+C:\Users\Ali Najafi\Desktop\28-02-19\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.SI.resources
+C:\Users\Ali Najafi\Desktop\28-02-19\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\3D Simluation.csproj.GenerateResource.Cache
+C:\Users\Ali Najafi\Desktop\28-02-19\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.exe
+C:\Users\Ali Najafi\Desktop\28-02-19\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\obj\x86\Debug\Electrical_Circuit_Simulator.pdb
+C:\Users\Ali Najafi\Desktop\28-02-19\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\bin\x86\Debug\Electrical_Circuit_Simulator.exe
+C:\Users\Ali Najafi\Desktop\28-02-19\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\bin\x86\Debug\Electrical_Circuit_Simulator.pdb
+C:\Users\Ali Najafi\Desktop\28-02-19\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\Users\Ali Najafi\Desktop\28-02-19\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\Ali Najafi\Desktop\28-02-19\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\Users\Ali Najafi\Desktop\28-02-19\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\Ali Najafi\Desktop\28-02-19\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+C:\Users\Ali Najafi\Desktop\28-02-19\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\Users\Ali Najafi\Desktop\28-02-19\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\Ali Najafi\Desktop\28-02-19\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Users\Ali Najafi\Desktop\28-02-19\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\Users\Ali Najafi\Desktop\28-02-19\26-02-19-master\Electrical Circuit Simulator\Electrical_Circuit_Simulator\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml

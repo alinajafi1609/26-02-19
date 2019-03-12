@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Input_Resistors));
             this.label2 = new System.Windows.Forms.Label();
             this.resTextBox = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -113,8 +114,9 @@
             this.Controls.Add(this.resTextBox);
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Input_Resistors";
-            this.Text = "Input Values";
+            this.Text = "Insert Component";
             this.Load += new System.EventHandler(this.Input_Resistors_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

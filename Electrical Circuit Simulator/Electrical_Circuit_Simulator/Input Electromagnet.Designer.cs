@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Input_Electromagnet));
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -53,7 +54,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(97, 9);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(168, 13);
+            this.label4.Size = new System.Drawing.Size(192, 15);
             this.label4.TabIndex = 19;
             this.label4.Text = "Enter the name of the component:\r\n";
             // 
@@ -78,7 +79,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(296, 68);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(40, 13);
+            this.label2.Size = new System.Drawing.Size(45, 15);
             this.label2.TabIndex = 22;
             this.label2.Text = "Length";
             // 
@@ -87,7 +88,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(28, 68);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 13);
+            this.label1.Size = new System.Drawing.Size(130, 15);
             this.label1.TabIndex = 21;
             this.label1.Text = "Magnetic Flux Density ";
             // 
@@ -106,7 +107,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(170, 68);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(47, 13);
+            this.label6.Size = new System.Drawing.Size(53, 15);
             this.label6.TabIndex = 27;
             this.label6.Text = "Junction";
             // 
@@ -123,14 +124,14 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(287, 138);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 13);
+            this.label3.Size = new System.Drawing.Size(68, 15);
             this.label3.TabIndex = 29;
             this.label3.Text = "Resistance";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(279, 154);
+            this.textBox3.Location = new System.Drawing.Point(287, 155);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(71, 20);
             this.textBox3.TabIndex = 28;
@@ -152,8 +153,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Input_Electromagnet";
-            this.Text = "Input_Electromagnet";
+            this.Text = "Insert Component";
             this.Load += new System.EventHandler(this.Input_Electromagnet_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
