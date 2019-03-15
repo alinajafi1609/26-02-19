@@ -43,9 +43,10 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(107, 75);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 15);
+            this.label2.Size = new System.Drawing.Size(55, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Resitance";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // resTextBox
             // 
@@ -70,9 +71,10 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(98, 9);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(192, 15);
+            this.label4.Size = new System.Drawing.Size(168, 13);
             this.label4.TabIndex = 8;
             this.label4.Text = "Enter the name of the component:\r\n";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // nameTextBox
             // 
@@ -88,7 +90,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(237, 75);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 15);
+            this.label6.Size = new System.Drawing.Size(47, 13);
             this.label6.TabIndex = 21;
             this.label6.Text = "Junction";
             this.label6.Click += new System.EventHandler(this.label6_Click);

@@ -46,11 +46,9 @@ namespace Electrical_Circuit_Simulator
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            string SResistance = resTextBox.Text;
-            if (SResistance != "?" && !string.IsNullOrEmpty(SResistance))
-            {
-                Resistance = Convert.ToDouble(SResistance);
-            }
+
+            string JunctionS = textBox1.Text;
+            Junction = Convert.ToInt16(JunctionS);
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
@@ -71,11 +69,24 @@ namespace Electrical_Circuit_Simulator
 
         private void textBox1_TextChanged_1(object sender, EventArgs e)
         {
-            string JunctionS = textBox1.Text;
-            Junction = Convert.ToInt16(JunctionS);
+            string SResistance = resTextBox.Text;
+            if (SResistance != "?" && !string.IsNullOrEmpty(SResistance))
+            {
+                Resistance = Convert.ToDouble(SResistance);
+            }
         }
 
         private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }

@@ -42,11 +42,12 @@
             this.cellToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.batteryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.magnetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.variableElectromagnetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.verticalWireToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.horizontalWireToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.button3 = new System.Windows.Forms.Button();
-            this.variableElectromagnetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.capacitorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -126,66 +127,74 @@
             this.magnetToolStripMenuItem,
             this.variableElectromagnetToolStripMenuItem,
             this.verticalWireToolStripMenuItem,
-            this.horizontalWireToolStripMenuItem});
+            this.horizontalWireToolStripMenuItem,
+            this.capacitorToolStripMenuItem});
             this.toolStripSplitButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripSplitButton1.Image")));
             this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripSplitButton1.Name = "toolStripSplitButton1";
-            this.toolStripSplitButton1.Size = new System.Drawing.Size(120, 22);
+            this.toolStripSplitButton1.Size = new System.Drawing.Size(112, 22);
             this.toolStripSplitButton1.Text = "Add Component";
             // 
             // bulbToolStripMenuItem
             // 
             this.bulbToolStripMenuItem.Name = "bulbToolStripMenuItem";
-            this.bulbToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.bulbToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.bulbToolStripMenuItem.Text = "Bulb";
             this.bulbToolStripMenuItem.Click += new System.EventHandler(this.bulbToolStripMenuItem_Click);
             // 
             // resistorToolStripMenuItem
             // 
             this.resistorToolStripMenuItem.Name = "resistorToolStripMenuItem";
-            this.resistorToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.resistorToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.resistorToolStripMenuItem.Text = "Resistor";
             this.resistorToolStripMenuItem.Click += new System.EventHandler(this.resistorToolStripMenuItem_Click);
             // 
             // variableResistorToolStripMenuItem
             // 
             this.variableResistorToolStripMenuItem.Name = "variableResistorToolStripMenuItem";
-            this.variableResistorToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.variableResistorToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.variableResistorToolStripMenuItem.Text = "Variable Resistor";
             this.variableResistorToolStripMenuItem.Click += new System.EventHandler(this.variableResistorToolStripMenuItem_Click);
             // 
             // cellToolStripMenuItem
             // 
             this.cellToolStripMenuItem.Name = "cellToolStripMenuItem";
-            this.cellToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.cellToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.cellToolStripMenuItem.Text = "Cell";
             this.cellToolStripMenuItem.Click += new System.EventHandler(this.cellToolStripMenuItem_Click);
             // 
             // batteryToolStripMenuItem
             // 
             this.batteryToolStripMenuItem.Name = "batteryToolStripMenuItem";
-            this.batteryToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.batteryToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.batteryToolStripMenuItem.Text = "Battery";
             this.batteryToolStripMenuItem.Click += new System.EventHandler(this.batteryToolStripMenuItem_Click);
             // 
             // magnetToolStripMenuItem
             // 
             this.magnetToolStripMenuItem.Name = "magnetToolStripMenuItem";
-            this.magnetToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.magnetToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.magnetToolStripMenuItem.Text = "Electromagnet";
             this.magnetToolStripMenuItem.Click += new System.EventHandler(this.magnetToolStripMenuItem_Click);
+            // 
+            // variableElectromagnetToolStripMenuItem
+            // 
+            this.variableElectromagnetToolStripMenuItem.Name = "variableElectromagnetToolStripMenuItem";
+            this.variableElectromagnetToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.variableElectromagnetToolStripMenuItem.Text = "Variable Electromagnet";
+            this.variableElectromagnetToolStripMenuItem.Click += new System.EventHandler(this.variableElectromagnetToolStripMenuItem_Click);
             // 
             // verticalWireToolStripMenuItem
             // 
             this.verticalWireToolStripMenuItem.Name = "verticalWireToolStripMenuItem";
-            this.verticalWireToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.verticalWireToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.verticalWireToolStripMenuItem.Text = "Vertical Wire";
             this.verticalWireToolStripMenuItem.Click += new System.EventHandler(this.verticalWireToolStripMenuItem_Click);
             // 
             // horizontalWireToolStripMenuItem
             // 
             this.horizontalWireToolStripMenuItem.Name = "horizontalWireToolStripMenuItem";
-            this.horizontalWireToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.horizontalWireToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.horizontalWireToolStripMenuItem.Text = "Horizontal Wire";
             this.horizontalWireToolStripMenuItem.Click += new System.EventHandler(this.horizontalWireToolStripMenuItem_Click);
             // 
@@ -195,7 +204,7 @@
             this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(46, 22);
+            this.toolStripButton1.Size = new System.Drawing.Size(41, 22);
             this.toolStripButton1.Text = "Clear ";
             this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
@@ -209,12 +218,12 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
-            // variableElectromagnetToolStripMenuItem
+            // capacitorToolStripMenuItem
             // 
-            this.variableElectromagnetToolStripMenuItem.Name = "variableElectromagnetToolStripMenuItem";
-            this.variableElectromagnetToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
-            this.variableElectromagnetToolStripMenuItem.Text = "Variable Electromagnet";
-            this.variableElectromagnetToolStripMenuItem.Click += new System.EventHandler(this.variableElectromagnetToolStripMenuItem_Click);
+            this.capacitorToolStripMenuItem.Name = "capacitorToolStripMenuItem";
+            this.capacitorToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.capacitorToolStripMenuItem.Text = "Capacitor";
+            this.capacitorToolStripMenuItem.Click += new System.EventHandler(this.capacitorToolStripMenuItem_Click);
             // 
             // CCS
             // 
@@ -261,5 +270,6 @@
         private System.Windows.Forms.ToolStripMenuItem verticalWireToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem horizontalWireToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem variableElectromagnetToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem capacitorToolStripMenuItem;
     }
 }

@@ -293,5 +293,16 @@ namespace Electrical_Circuit_Simulator
             Rectangle R = new Rectangle(BmpLoc, Bmp.Size);
             this.Invalidate(R);
         }
+
+        private void capacitorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var InputCapacitor = new Input_Capacitor(circuit);
+            InputCapacitor.Show();
+            FileLocation = ".\\..\\..\\..\\Resources\\CapacitorCS.png";
+            Bmp = new Bitmap(FileLocation);
+            BmpLoc = new Point(POINT.X, POINT.Y);
+            Rectangle R = new Rectangle(BmpLoc, Bmp.Size);
+            this.Invalidate(R);
+        }
     }
     }

@@ -9,6 +9,7 @@ namespace Electrical_Circuit_Simulator
         public List<ComponentResistors> ComponentResistorList { get; }
         public List<ComponentPowerSource> ComponentPowerSourceList { get; }
         public List<ComponentElectromagnets> ComponentElectromagnetsList { get; }
+        public List<ComponentCapacitor> ComponentCapacitorList { get; }
         double Junction;
         double ResistanceOfEachComponent;
         double ResistanceofJunction;
@@ -29,7 +30,7 @@ namespace Electrical_Circuit_Simulator
             ComponentResistorList = new List<ComponentResistors>();
             ComponentPowerSourceList = new List<ComponentPowerSource>();
             ComponentElectromagnetsList = new List<ComponentElectromagnets>();
-            
+            ComponentCapacitorList = new List<ComponentCapacitor>();
         }
 
         public double calculate()
@@ -65,7 +66,6 @@ namespace Electrical_Circuit_Simulator
             SinDirection = Force / (MagneticFluxDensity * CurrentofEachJunction * Length);
             Direction = Math.Asin(SinDirection);
             return 0;
-
         }
     }
 }

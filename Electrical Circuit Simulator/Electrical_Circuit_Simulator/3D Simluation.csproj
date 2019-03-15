@@ -83,6 +83,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CS.resx</DependentUpon>
     </Compile>
+    <Compile Include="Input Capacitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Input Capacitor.Designer.cs">
+      <DependentUpon>Input Capacitor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Input Electromagnet.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +97,7 @@
     </Compile>
     <Compile Include="models\Calcuations.cs" />
     <Compile Include="models\Circuit.cs" />
+    <Compile Include="models\ComponentCapactior.cs" />
     <Compile Include="models\ComponentElectromagnets.cs" />
     <Compile Include="models\ComponentResistors.cs" />
     <Compile Include="CS.cs">
@@ -192,6 +199,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HELP.resx">
       <DependentUpon>HELP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Input Capacitor.resx">
+      <DependentUpon>Input Capacitor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Input Electromagnet.resx">
       <DependentUpon>Input Electromagnet.cs</DependentUpon>
